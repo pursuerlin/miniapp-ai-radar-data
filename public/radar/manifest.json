@@ -1,34 +1,34 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T03:42:19.089Z",
+  "generatedAt": "2026-10-18T04:36:23.290Z",
   "datasets": {
     "catalog": {
       "label": "模型目录与报价",
-      "collectedAt": "2026-10-18T00:32:28.438Z",
+      "collectedAt": "2026-10-18T04:36:22.144Z",
       "status": "ok",
       "source": "OpenRouter models API"
     },
     "usage": {
       "label": "Token 用量周榜",
-      "collectedAt": "2026-10-18T00:32:28.438Z",
+      "collectedAt": "2026-10-18T04:36:22.144Z",
       "status": "ok",
       "source": "OpenRouter rankings"
     },
     "intelligence": {
       "label": "AI 资讯",
-      "collectedAt": "2026-10-18T00:31:47.487Z",
-      "status": "partial",
+      "collectedAt": "2026-10-18T04:36:19.894Z",
+      "status": "ok",
       "source": "RSS / 官方来源"
     },
     "evaluation": {
       "label": "能力评测",
-      "collectedAt": "2026-10-18T00:22:05.056Z",
+      "collectedAt": "2026-10-18T04:36:23.205Z",
       "status": "ok",
       "source": "Artificial Analysis / LiveBench"
     },
     "briefings": {
       "label": "每日与每周简报",
-      "collectedAt": "2026-10-18T00:31:47.487Z",
+      "collectedAt": "2026-10-18T04:36:19.894Z",
       "status": "ok",
       "source": "本地结构化简报"
     }

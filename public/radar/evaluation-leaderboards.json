@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "collectedAt": "2026-10-18T00:22:05.056Z",
+  "collectedAt": "2026-10-18T04:36:23.205Z",
   "sources": [
     {
       "id": "artificial-analysis",
@@ -17,7 +17,7 @@
       "domain": "七类实际任务",
       "source": "https://livebench.ai/",
       "release": "2026-10-14",
-      "collectedAt": "2026-10-18T00:22:05.056Z",
+      "collectedAt": "2026-10-18T04:36:23.205Z",
       "note": "先计算各分类均分，再对分类等权平均；任务费用按官方总费用 / 任务数。"
     }
   ],
@@ -196,8 +196,8 @@
       "name": "Muse Spark 1.2",
       "provider": "Meta",
       "openWeight": null,
-      "score": 61.8,
-      "cost": 0.4977630107526882,
+      "score": 62.4,
+      "cost": 0.536117088607595,
       "costBasis": "source",
       "costUnit": "USD / task",
       "date": "2026-10-14",
@@ -205,8 +205,8 @@
       "categories": {
         "Long-Horizon": 21.3,
         "Reasoning": 90,
-        "Coding": 80.6,
-        "Browser": 29.4,
+        "Coding": 78.2,
+        "Browser": 36,
         "Data Analysis": 76.5,
         "Research": 67.7,
         "Design": 67.1
@@ -604,20 +604,20 @@
       "name": "DeepSeek V4.1 Flash",
       "provider": "DeepSeek",
       "openWeight": true,
-      "score": 76.79,
-      "cost": 0.1038598712446352,
+      "score": 78.04,
+      "cost": 0.08352320675105486,
       "costBasis": "source",
       "costUnit": "USD / task",
       "date": "2026-10-14",
       "configuration": "effort: max",
       "categories": {
-        "Long-Horizon": 43.8,
+        "Long-Horizon": 40.1,
         "Reasoning": 86.7,
-        "Coding": 85.4,
-        "Browser": 80,
+        "Coding": 90.2,
+        "Browser": 84,
         "Data Analysis": 79.3,
-        "Research": 85.3,
-        "Design": 77
+        "Research": 86.8,
+        "Design": 79.2
       },
       "source": "https://livebench.ai/",
       "modelSource": "https://api-docs.deepseek.com/updates"
@@ -652,8 +652,8 @@
       "name": "Muse Spark 1.3",
       "provider": "Meta",
       "openWeight": null,
-      "score": 74.9,
-      "cost": 0.7296217021276596,
+      "score": 74.76,
+      "cost": 0.7471742616033756,
       "costBasis": "source",
       "costUnit": "USD / task",
       "date": "2026-10-14",
@@ -662,7 +662,7 @@
         "Long-Horizon": 40.4,
         "Reasoning": 89.7,
         "Coding": 90.2,
-        "Browser": 81,
+        "Browser": 80,
         "Data Analysis": 79.6,
         "Research": 68.6,
         "Design": 74.8
@@ -1173,10 +1173,34 @@
       },
       "source": "https://livebench.ai/",
       "modelSource": "https://reflection.ai/"
+    },
+    {
+      "sourceId": "livebench",
+      "id": "deepseek-v4.1-flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "provider": "DeepSeek",
+      "openWeight": true,
+      "score": 79.2,
+      "cost": 0.06585548523206751,
+      "costBasis": "source",
+      "costUnit": "USD / task",
+      "date": "2026-10-14",
+      "configuration": "effort: max",
+      "categories": {
+        "Long-Horizon": 50.9,
+        "Reasoning": 89.1,
+        "Coding": 96,
+        "Browser": 76,
+        "Data Analysis": 79.5,
+        "Research": 79.5,
+        "Design": 83.4
+      },
+      "source": "https://livebench.ai/",
+      "modelSource": "https://api-docs.deepseek.com/updates"
     }
   ],
   "methodology": [
-    "Each cell is the model's mean task score for the suite, 0–100, from a single run.",
+    "Each cell is the model's mean task score for the suite, 0–100, from a single run. A task the run could not measure, even after one rerun, scores 0.",
     "Design: layout and design tasks across presentations, PDFs and documents. Graded on visual and structural checks of the produced file.",
     "Research: open-ended research briefs producing a written report. Graded against a rubric.",
     "Browser Use: multi-step tasks in working web applications, completed through a real browser. Scored as the share of tasks passed. A model that cannot accept screenshots cannot do these tasks and scores 0.",
@@ -1193,7 +1217,7 @@
     "assets": [
       {
         "url": "https://livebench.ai/v2/table_2026_09_02.csv",
-        "sha256": "4013d33cd94d29063993b0080c24c78427702ed679b1226599d3c0591b97e9bf"
+        "sha256": "dea13d4db85a4a1c898f29835f5c58635848f1904870490ff14259596d66abcc"
       },
       {
         "url": "https://livebench.ai/v2/categories_2026_09_02.json",
@@ -1201,14 +1225,14 @@
       },
       {
         "url": "https://livebench.ai/v2/cost_2026_09_02.csv",
-        "sha256": "fae71c0365d4cf0072e8f87c7cfead2c51fc4f13f7fbefe4c300f004342ca9be"
+        "sha256": "4a84743c7aae581b927741f063d859c33469c6154a234f47910aef581c02d77d"
       },
       {
         "url": "https://livebench.ai/v2/notes_2026_09_02.json",
-        "sha256": "95194b5b9be2922e8d7b841ad92cdf906dd5bf6aa35bfa8b1ad72dde181c4300"
+        "sha256": "3925badf03676068a1f5ae1e933e0fe8b9186613077341acab7ef296df50f522"
       }
     ],
-    "applicationScript": "https://livebench.ai/static/js/main.13da4572.js"
+    "applicationScript": "https://livebench.ai/static/js/main.38b3cf3c.js"
   },
   "withdrawn": [
     {
