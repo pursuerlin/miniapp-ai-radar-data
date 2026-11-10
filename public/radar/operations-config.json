@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 2,
+  "pages": {
+    "radar": false,
+    "models": true,
+    "select": true,
+    "practice": true,
+    "mine": true
+  },
+  "fallback": "models",
+  "channels": {
+    "image": true,
+    "web": true,
+    "skill": false
+  },
+  "scope": "featured",
+  "sort": "score",
+  "hideIncomplete": false,
+  "hiddenIds": [],
+  "featuredOverrides": {},
+  "radar": {
+    "views": [
+      "selected",
+      "hot",
+      "briefings",
+      "topics"
+    ],
+    "defaultView": "selected",
+    "window": "24h",
+    "periods": [
+      "daily",
+      "weekly",
+      "monthly"
+    ],
+    "topics": [
+      "其他",
+      "模型",
+      "行业",
+      "研究",
+      "开发",
+      "观点",
+      "价格",
+      "应用"
+    ],
+    "hiddenSourceIds": [],
+    "hiddenIds": [],
+    "blockedTerms": []
+  },
+  "modelPolicy": {
+    "origins": [
+      "domestic",
+      "unknown"
+    ],
+    "hiddenProviderIds": [],
+    "hiddenModelIds": []
+  },
+  "models": {
+    "tabs": [
+      "evidence",
+      "usage",
+      "catalog"
+    ],
+    "defaultTab": "evidence",
+    "defaultOrigin": "all",
+    "source": "artificial-analysis",
+    "openOnly": false,
+    "sort": "new"
+  },
+  "selection": {
+    "inheritPolicy": true,
+    "origins": [
+      "domestic",
+      "overseas",
+      "unknown"
+    ],
+    "defaultOrigin": "all",
+    "purposes": [
+      "daily",
+      "coding",
+      "reading",
+      "automation"
+    ],
+    "defaultPurpose": "daily",
+    "load": "regular",
+    "resultCount": 5,
+    "advanced": true
+  },
+  "delivery": {
+    "refreshMinutes": 5
+  },
+  "contract": "mojing-operations-v2",
+  "revision": 1,
+  "version": "cfg-2026-11-10T14-20-16-807Z-c93d6b",
+  "updatedAt": "2026-11-10T14:20:16.807Z",
+  "note": "接通手机配置：沿用已发布的模型展示规则"
+}
