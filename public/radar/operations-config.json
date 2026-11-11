@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "pages": {
-    "radar": true,
+    "radar": false,
     "models": true,
     "select": true,
     "practice": true,
@@ -89,8 +89,8 @@
     "refreshMinutes": 5
   },
   "contract": "mojing-operations-v2",
-  "revision": 3,
-  "version": "cfg-2026-11-11T03-35-58-922Z-218a0f",
-  "updatedAt": "2026-11-11T03:35:58.922Z",
+  "revision": 4,
+  "version": "cfg-2026-11-11T03-37-53-377Z-00035f",
+  "updatedAt": "2026-11-11T03:37:53.377Z",
   "note": "自定义草稿"
 }
