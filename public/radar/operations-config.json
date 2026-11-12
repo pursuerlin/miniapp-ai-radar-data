@@ -49,7 +49,8 @@
   "modelPolicy": {
     "origins": [
       "domestic",
-      "unknown"
+      "unknown",
+      "overseas"
     ],
     "hiddenProviderIds": [],
     "hiddenModelIds": []
@@ -89,8 +90,8 @@
     "refreshMinutes": 5
   },
   "contract": "mojing-operations-v2",
-  "revision": 6,
-  "version": "cfg-2026-11-12T01-42-03-465Z-31565d",
-  "updatedAt": "2026-11-12T01:42:03.465Z",
+  "revision": 7,
+  "version": "cfg-2026-11-12T01-54-02-508Z-e2bb98",
+  "updatedAt": "2026-11-12T01:54:02.508Z",
   "note": "自定义草稿"
 }
