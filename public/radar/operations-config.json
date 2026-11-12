@@ -1,19 +1,19 @@
 {
   "schemaVersion": 2,
   "pages": {
-    "radar": false,
+    "radar": true,
     "models": true,
     "select": true,
     "practice": true,
     "mine": true
   },
-  "fallback": "models",
+  "fallback": "practice",
   "channels": {
     "image": true,
     "web": true,
     "skill": false
   },
-  "scope": "featured",
+  "scope": "all",
   "sort": "score",
   "hideIncomplete": false,
   "hiddenIds": [],
@@ -90,8 +90,8 @@
     "refreshMinutes": 5
   },
   "contract": "mojing-operations-v2",
-  "revision": 7,
-  "version": "cfg-2026-11-12T01-54-02-508Z-e2bb98",
-  "updatedAt": "2026-11-12T01:54:02.508Z",
+  "revision": 8,
+  "version": "cfg-2026-11-12T05-33-50-498Z-5175ea",
+  "updatedAt": "2026-11-12T05:33:50.498Z",
   "note": "自定义草稿"
 }
