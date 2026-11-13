@@ -7,7 +7,7 @@
     "practice": true,
     "mine": true
   },
-  "fallback": "practice",
+  "fallback": "models",
   "channels": {
     "image": true,
     "web": true,
@@ -90,8 +90,8 @@
     "refreshMinutes": 5
   },
   "contract": "mojing-operations-v2",
-  "revision": 8,
-  "version": "cfg-2026-11-12T05-33-50-498Z-5175ea",
-  "updatedAt": "2026-11-12T05:33:50.498Z",
+  "revision": 9,
+  "version": "cfg-2026-11-13T02-43-45-645Z-0ef456",
+  "updatedAt": "2026-11-13T02:43:45.645Z",
   "note": "自定义草稿"
 }
