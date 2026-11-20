@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "pages": {
-    "radar": true,
+    "radar": false,
     "models": true,
     "select": true,
     "practice": true,
@@ -49,8 +49,7 @@
   "modelPolicy": {
     "origins": [
       "domestic",
-      "unknown",
-      "overseas"
+      "unknown"
     ],
     "hiddenProviderIds": [],
     "hiddenModelIds": []
@@ -104,8 +103,8 @@
     "refreshMinutes": 5
   },
   "contract": "mojing-operations-v2",
-  "version": "cfg-2026-11-13T02-43-45-645Z-0ef456",
-  "revision": 9,
-  "updatedAt": "2026-11-13T02:43:45.645Z",
+  "revision": 10,
+  "version": "cfg-2026-11-20T03-07-43-029Z-f59079",
+  "updatedAt": "2026-11-20T03:07:43.029Z",
   "note": "自定义草稿"
 }
